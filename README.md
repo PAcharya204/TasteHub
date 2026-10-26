@@ -2,6 +2,10 @@
 
 TasteHub is an Android food ordering application developed using Java, XML, and SQLite. It provides a simple and user-friendly interface for browsing food items, managing a cart, and placing orders.
 
+## 🎥 Project Demo
+
+[▶️ Watch the TasteHub Demo](./TasteHub_Video.mp4)
+
 ## ✨ Features
 
 * **User Authentication:** User registration and login.
