@@ -1,0 +1,51 @@
+name,category,description,price,rating,is_veg,image
+Margherita Pizza,Pizza,Classic cheese pizza,170,4.5,1,img1
+Farmhouse Pizza,Pizza,Fresh vegetables and cheese,179,4.5,1,img2
+Pepperoni Pizza,Pizza,Cheesy pepperoni pizza,199,4.4,0,img3
+Cheese Burst Pizza,Pizza,Extra cheese pizza,220,4.6,1,img4
+Paneer Tikka Pizza,Pizza,Pizza with paneer tikka,210,4.5,1,img5
+Chicken Tikka Pizza,Pizza,Pizza with chicken tikka,230,4.4,0,img6
+Veggie Delight Pizza,Pizza,Mixed vegetable pizza,180,4.3,1,img7
+Mexican Green Wave Pizza,Pizza,Spicy Mexican vegetable pizza,200,4.4,1,img8
+Chicken Sausage Pizza,Pizza,Chicken sausage and cheese pizza,240,4.3,0,img9
+Double Cheese Pizza,Pizza,Extra cheese and mozzarella pizza,210,4.6,1,img10
+Veg Burger,Burger,Crispy vegetable burger,120,4.3,1,img11
+Cheese Burger,Burger,Burger with melted cheese,140,4.4,1,img12
+Chicken Burger,Burger,Grilled chicken burger,160,4.5,0,img13
+Crispy Chicken Burger,Burger,Crispy fried chicken burger,170,4.4,0,img14
+Paneer Burger,Burger,Spicy paneer burger,150,4.3,1,img15
+Double Cheese Burger,Burger,Burger with double cheese,165,4.5,1,img16
+Spicy Veg Burger,Burger,Spicy vegetable burger,130,4.2,1,img17
+BBQ Chicken Burger,Burger,Chicken burger with BBQ sauce,180,4.5,0,img18
+Classic Chicken Burger,Burger,Classic chicken burger,155,4.3,0,img19
+Mushroom Cheese Burger,Burger,Mushroom burger with cheese,145,4.2,1,img20
+White Sauce Pasta,Pasta,Creamy white sauce pasta,180,4.5,1,img21
+Red Sauce Pasta,Pasta,Italian pasta with tomato sauce,170,4.4,1,img22
+Pesto Pasta,Pasta,Pasta with creamy pesto sauce,190,4.3,1,img23
+Arrabbiata Pasta,Pasta,Spicy tomato pasta,175,4.4,1,img24
+Chicken Alfredo Pasta,Pasta,Creamy pasta with chicken,220,4.5,0,img25
+Chicken Red Sauce Pasta,Pasta,Tomato pasta with chicken,210,4.3,0,img26
+Veg Cheese Pasta,Pasta,Cheesy pasta with vegetables,195,4.4,1,img27
+Spicy Paneer Pasta,Pasta,Spicy pasta with paneer,200,4.3,1,img28
+French Fries,Snacks,Crispy salted potato fries,90,4.3,1,img29
+Peri Peri Fries,Snacks,Fries with peri peri seasoning,110,4.5,1,img30
+Cheese Fries,Snacks,Crispy fries with cheese,130,4.4,1,img31
+Veg Nuggets,Snacks,Crispy vegetable nuggets,120,4.2,1,img32
+Chicken Nuggets,Snacks,Crispy chicken nuggets,150,4.4,0,img33
+Garlic Bread,Snacks,Toasted garlic bread,100,4.3,1,img34
+Cheese Garlic Bread,Snacks,Garlic bread with melted cheese,130,4.5,1,img35
+Paneer Popcorn,Snacks,Crispy paneer bites,140,4.4,1,img36
+Chicken Popcorn,Snacks,Crispy chicken bites,160,4.5,0,img37
+Veg Spring Rolls,Snacks,Crispy rolls filled with vegetables,110,4.2,1,img38
+Cold Coffee,Beverages,Chilled creamy coffee,100,4.2,1,img39
+Chocolate Shake,Beverages,Creamy chocolate milkshake,140,4.5,1,img40
+Vanilla Shake,Beverages,Creamy vanilla milkshake,130,4.3,1,img41
+Strawberry Shake,Beverages,Fresh strawberry milkshake,140,4.4,1,img42
+Mango Shake,Beverages,Refreshing mango milkshake,135,4.3,1,img43
+Fresh Lime Soda,Beverages,Refreshing lime soda,80,4.2,1,img44
+Coca Cola,Beverages,Chilled carbonated soft drink,60,4.1,1,img45
+Choco Lava Cake,Desserts,Warm chocolate cake with molten center,120,4.6,1,img46
+Chocolate Brownie,Desserts,Soft chocolate brownie,110,4.5,1,img47
+Vanilla Ice Cream,Desserts,Creamy vanilla ice cream,90,4.3,1,img48
+Chocolate Ice Cream,Desserts,Rich chocolate ice cream,100,4.5,1,img49
+Gulab Jamun,Desserts,Soft sweet dumplings in sugar syrup,80,4.4,1,img50

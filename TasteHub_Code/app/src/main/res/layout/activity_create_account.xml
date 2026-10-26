@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F1"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <!-- Registration Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="16dp">
+
+            <!-- TasteHub Logo -->
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:contentDescription="TasteHub Logo" />
+
+            <!-- App Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="TasteHub"
+                android:textColor="#171717"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- Tagline -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Food at your fingertips"
+                android:textColor="#555555"
+                android:textSize="16sp" />
+
+            <!-- Space Before Form -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <!-- Full Name -->
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_box"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textColor="#222222"
+                android:textColorHint="#777777" />
+
+            <!-- Mobile Number -->
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_box"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textColor="#222222"
+                android:textColorHint="#777777" />
+
+            <!-- Email Address -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_box"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textColor="#222222"
+                android:textColorHint="#777777" />
+
+            <!-- Password -->
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_box"
+                android:hint="Password (minimum 8 characters)"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textColor="#222222"
+                android:textColorHint="#777777" />
+
+            <!-- Confirm Password -->
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/login_box"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:singleLine="true"
+                android:textColor="#222222"
+                android:textColorHint="#777777" />
+
+            <!-- Create Account Button -->
+            <Button
+                android:id="@+id/btnCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#005B63"
+                android:text="CREATE ACCOUNT"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <!-- Login Navigation -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already have an account? "
+                    android:textColor="#444444"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvGoLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textColor="#005B63"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

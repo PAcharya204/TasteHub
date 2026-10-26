@@ -1,0 +1,19 @@
+# Gradle and generated build outputs
+.gradle/
+**/build/
+
+# Local Android SDK path
+local.properties
+
+# Android Studio local settings
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local secrets and signing files
+secrets.properties
+*.jks
+*.keystore

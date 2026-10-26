@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="6dp"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/food_card">
+
+    <!-- FOOD IMAGE -->
+
+    <ImageView
+        android:id="@+id/foodImage"
+
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+
+        android:scaleType="centerCrop"
+
+        android:src="@drawable/img"
+
+        android:contentDescription="Food image"/>
+
+
+    <!-- FOOD NAME -->
+
+    <TextView
+        android:id="@+id/foodName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+
+        android:maxLines="1"
+        android:ellipsize="end"
+
+        android:text="Farmhouse Pizza"
+
+        android:textColor="#171717"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+
+    <!-- PRICE + RATING + VEG + ADD BUTTON -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="10dp"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- PRICE -->
+
+        <TextView
+            android:id="@+id/foodPrice"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="₹179"
+            android:textColor="#171717"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <!-- RATING -->
+
+        <TextView
+            android:id="@+id/foodRating"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="10dp"
+
+            android:text="★ 4.5"
+            android:textColor="#F2A900"
+            android:textSize="14sp" />
+
+
+        <!-- VEG / NON-VEG -->
+
+        <TextView
+            android:id="@+id/foodVeg"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="8dp"
+
+            android:text="●"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
